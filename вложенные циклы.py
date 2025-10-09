@@ -12,7 +12,7 @@ for i in range(number - 2, -1, -1):
     print(spaces + stars)
 
 
-# #3
+#3
 n = int(input("Введите размер: "))
 for i in range(1, n, 2):
     i = ' ' * ((n - i)//2)  + '*' * i
