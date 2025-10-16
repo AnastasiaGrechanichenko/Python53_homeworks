@@ -10,6 +10,7 @@ def generate_list(size,b1,b2):
     if b1 > b2:
         b1,b2 = b2, b1
 
+
     for x in range(b1,b2):
         number = random.randint(b1,b2)
         list1.append(number)
